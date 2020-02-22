@@ -1,0 +1,18 @@
+{
+    "name": "URL to QRCode generator",
+    "version": "2.1",
+    "manifest_version": 2,
+    "description": "Share URLs between desktop and mobile clients by generating QRCode from an active tab.",
+    "author": "Rasmus Johanson",
+    "homepage_url": "https://github.com/johanson/",
+    "minimum_chrome_version": "75",
+    "icons": {
+        "128": "assets/icon_128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+      },
+    "permissions": [
+        "activeTab"
+    ]
+}
